@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "myvenv\\Scripts\\python.exe",
+    "editor.formatOnSave": true,
+    "git.ignoreLimitWarning": true,
+}
