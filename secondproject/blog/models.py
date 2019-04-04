@@ -13,3 +13,10 @@ class Blog(models.Model):
 
     def summary(self):
         return self.body[:100]
+
+
+class Comment(models.Model):
+    post = models.ForeignKey(Blog)
+    author = models.CharField(max_length=10)
+    message = models.TextField()
+    pub_date2 = models.DateTimeField('date published')
